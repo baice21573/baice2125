@@ -1,0 +1,67 @@
+{
+  "owner": {
+    "name": "韩沁彤",
+    "nameEn": "Han Qintong",
+    "school": "北京航空航天大学",
+    "major": "新媒体艺术与设计专业",
+    "direction": "数字媒体艺术"
+  },
+  "site": {
+    "title": "韩沁彤 HAN QINTONG — 私人储物柜",
+    "entry": "index.html",
+    "style": "r128 global CDN; no ES modules; inline CSS/JS",
+    "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+  },
+  "projects": [
+    {
+      "id": "interactive",
+      "title": "疯狂仙境",
+      "type": "互动编程",
+      "video": "project/gameplay.mp4",
+      "document": "project/document.html",
+      "documentSource": "project/madness-doc.docx",
+      "code": "project/code.html",
+      "codeSource": "project/sketch_260615d.pde",
+      "images": "project/doc-media/",
+      "poster": "project/poster.jpg"
+    },
+    {
+      "id": "web",
+      "title": "PickWild · 拾野",
+      "type": "网络媒体设计 / Figma",
+      "video": "web-project/prototype.mp4",
+      "poster": "web-project/poster.jpg",
+      "boards": [
+        "web-project/boards/board-01-brand.jpg",
+        "web-project/boards/board-02-pages.jpg",
+        "web-project/boards/board-03-home.jpg",
+        "web-project/boards/board-04-all-pages.jpg"
+      ]
+    },
+    {
+      "id": "scene",
+      "title": "一隅天地 · 四时微境",
+      "type": "四季 3D 建模",
+      "standalone": "four-seasons-gallery-r128.html",
+      "seasons": [
+        { "id": "spring", "title": "春 · 桃花源", "source": "source/four-seasons/spring-scene.js" },
+        { "id": "summer", "title": "夏 · 荷风榭", "source": "source/four-seasons/summer-scene.js" },
+        { "id": "autumn", "title": "秋 · 稻香渡", "source": "source/four-seasons/autumn-scene.js" },
+        { "id": "winter", "title": "冬 · 上元雪", "source": "source/four-seasons/winter-scene.js" }
+      ],
+      "sourceArchive": "source/four-seasons/four-seasons-gallery-complete.zip"
+    },
+    {
+      "id": "modeling",
+      "title": "UE / Blender 建模",
+      "type": "3D 练习存档",
+      "status": "placeholder"
+    }
+  ],
+  "audio": "audio/click.wav",
+  "deploy": {
+    "required": ["index.html", "project/", "web-project/", "audio/"],
+    "optional": ["four-seasons-gallery-r128.html", "source/"],
+    "notRequired": ["styles.css", "script.js", "scene-gallery/"]
+  }
+}
